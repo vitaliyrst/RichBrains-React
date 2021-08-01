@@ -1,0 +1,58 @@
+@use 'styles/colors';
+
+@font-face {
+	font-family: 'Helvetica';
+	font-weight: 400;
+	src: local('Helvetica'), url(./fonts/HelveticaRegular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	font-weight: 700;
+	src: local('Helvetica'), url(./fonts/HelveticaBold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay';
+	font-weight: 400;
+	src: local('PlayfairDisplay'), url(./fonts/PlayfairDisplay-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Raleway';
+	font-weight: 500;
+	src: local('Raleway'), url(./fonts/Raleway-Medium.ttf) format('truetype');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	margin-left: calc(100vw - 100%);
+	margin-right: 0;
+	overflow-x: hidden;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	overflow-y: auto;
+	background-color: colors.$bodyBackground;
+
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+
+	@media screen  and (max-width: 480px){
+		background-color: #FFFFFF;
+	}
+}
+
+#root{
+	height: max-content;
+}

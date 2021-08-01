@@ -1,0 +1,131 @@
+[
+  {
+    "category": "Business & Management",
+    "specializations": []
+  },
+  {
+    "category": " Computing & IT",
+    "specializations": []
+  },
+  {
+    "category": "Fashion & Media",
+    "specializations": []
+  },
+  {
+    "category": "Finance & Accounting",
+    "specializations": []
+  },
+  {
+    "category": "Law & Criminology",
+    "specializations": []
+  },
+  {
+    "category": "Marketing & Communications",
+    "specializations": []
+  },
+  {
+    "category": "Psychology & Social Sciences",
+    "specializations": [
+      {
+        "title": "Market Research Executive",
+        "courses": []
+      },
+      {
+        "title": "Child Psychologist",
+        "courses": []
+      },
+      {
+        "title": "Guidance Counsellor",
+        "courses": []
+      },
+      {
+        "title": "Behaviour Analyst",
+        "courses": [
+          {
+            "title": "Master of Business Administration (CMI)",
+            "image": "./assets/images/courses/company_01.svg",
+            "education": "Postgraduate",
+            "date": "Every 12 weeks",
+            "mba": "MSc Data Analytics and Information Systems Management",
+            "duration": [
+              "18",
+              "36"
+            ],
+            "start": "January, April, July, October",
+            "price": "£8,500"
+          },
+          {
+            "title": "Master of Business Administration (CMI)",
+            "image": "./assets/images/courses/company_06.svg",
+            "education": "Postgraduate",
+            "date": "Every 12 weeks",
+            "mba": "MSc Data Analytics and Information Systems Management",
+            "duration": [
+              "18",
+              "36"
+            ],
+            "start": "January, April, July, October",
+            "price": "£8,500"
+          },
+          {
+            "title": "Master of Business Administration (CMI)",
+            "image": "./assets/images/courses/company_03.svg",
+            "education": "Postgraduate",
+            "date": "Every 12 weeks",
+            "mba": "MSc Data Analytics and Information Systems Management",
+            "duration": [
+              "18",
+              "36"
+            ],
+            "start": "January, April, July, October",
+            "price": "£8,500"
+          },
+          {
+            "title": "Master of Business Administration (CMI)",
+            "image": "./assets/images/courses/company_03.svg",
+            "education": "Postgraduate",
+            "date": "Every 12 weeks",
+            "mba": "MSc Data Analytics and Information Systems Management",
+            "duration": [
+              "18",
+              "36"
+            ],
+            "start": "January, April, July, October",
+            "price": "£8,500"
+          },
+          {
+            "title": "Master of Business Administration (CMI)",
+            "image": "./assets/images/courses/company_05.svg",
+            "education": "Postgraduate",
+            "date": "Every 12 weeks",
+            "mba": "MSc Data Analytics and Information Systems Management",
+            "duration": [
+              "18",
+              "36"
+            ],
+            "start": "January, April, July, October",
+            "price": "£8,500"
+          },
+          {
+            "title": "Master of Business Administration (CMI)",
+            "image": "./assets/images/courses/company_06.svg",
+            "education": "Postgraduate",
+            "date": "Every 12 weeks",
+            "mba": "MSc Data Analytics and Information Systems Management",
+            "duration": [
+              "18",
+              "36"
+            ],
+            "start": "January, April, July, October",
+            "price": "£8,500"
+          }
+        ]
+      },
+      {
+        "title": "Recreational Therapist",
+        "courses": [
+        ]
+      }
+    ]
+  }
+]

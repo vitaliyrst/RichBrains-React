@@ -1,0 +1,44 @@
+@use 'styles/colors';
+
+.app {
+	max-width: 1192.22px;
+	height: max-content;
+	margin: 0 auto;
+
+	header {
+		margin-top: 60px;
+
+		h2 {
+			margin: 0;
+			font-family: PlayfairDisplay, sans-serif;
+			font-weight: 400;
+			font-size: 30px;
+			line-height: 46px;
+
+			color: colors.$textBlack;
+		}
+	}
+
+	main {
+		height: 100%;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+
+	@media screen and (max-width: 480px) {
+		width: 100%;
+		max-width: 100%;
+
+		header {
+			margin-left: 22px;
+			margin-top: 15px;
+		}
+
+		main {
+			margin-top: 16px;
+			margin-bottom: 60px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
